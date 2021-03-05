@@ -79,11 +79,13 @@ const handleLeaveCall = () => {
         leaveInterval = undefined;
       } else if (timeRemaining - 1 === 0) {
         leaveButton.click();
-        document
-          .querySelector(
-            '[class="zmu-btn leave-meeting-options__btn leave-meeting-options__btn--default leave-meeting-options__btn--danger zmu-btn--default zmu-btn__outline--white"]'
-          )
-          .click();
+        setTimeout(() => {
+          document
+            .querySelector(
+              '[class="zmu-btn leave-meeting-options__btn leave-meeting-options__btn--default leave-meeting-options__btn--danger zmu-btn--default zmu-btn__outline--white"]'
+            )
+            .click();
+        }, 200);
         clearInterval(leaveInterval);
         leaveInterval = undefined;
       } else {
