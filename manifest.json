@@ -2,17 +2,22 @@
   "name": "Auto Disconnect",
   "version": "1.0.2",
   "description": "Auto disconnector for Google Meets",
-  "permissions": ["storage"],
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.zoom.us/*"
+  ],
   "content_scripts": [
     {
-      "matches": ["https://zoom.us/*"],
+      "matches": ["https://*.zoom.us/*"],
       "js": ["inject.js"],
       "css": ["disconnect.css"]
     }
   ],
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "persistent": true
   },
   "browser_action": {
     "default_popup": "popup.html",
