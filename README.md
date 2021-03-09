@@ -9,10 +9,7 @@
 
 ## Download
 
-**[Latest Release](https://github.com/quilllol/quill-app/releases/latest)**
-
-<img src="images/WindowsWarning.png" alt="Windows may indicate that the installer is not commonly downloaded.
-If this warning is displayed, click “More Info” and “Run Anyways” to run the installer." width="500">
+**[Chrome Web Store](https://chrome.google.com/webstore/detail/auto-disconnect/iilfkhaccpcehenfdbgikmlhhklapkne)**
 
 ---
 
