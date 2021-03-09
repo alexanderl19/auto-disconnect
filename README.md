@@ -54,6 +54,16 @@ Auto Disconnect will instantly disconnect you when the number of participants dr
 > npm install
 ```
 
+3. Enabling Chrome Extensions Developer Mode
+
+   1. Go to [chrome://extensions/](chrome://extensions/)
+   2. Ensure the "Developer mode" switch is enabled
+      ![Developer Mode](images/DeveloperMode.png)
+   3. Click the "Load unpacked" button and select the folder created in step one
+      ![Load Unpacked](images/LoadUnpacked.png)
+
+4. Update the extension on [chrome://extensions/](chrome://extensions/) after making changes
+
 ### Bug Reports
 
 If you've identified a bug in [alexanderl19/auto-disconnect](https://github.com/alexanderl19/auto-disconnect), please [submit a bug report](https://github.com/alexanderl19/auto-disconnect/issues/new) if one doesn't already exist.
