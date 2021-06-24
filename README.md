@@ -1,3 +1,5 @@
+# This plugin no longer works due to the new Google Meet redesign.
+
 <div>
     <h2 align="center">Auto Disconnect</h2>
     <p align="center">Never leave a meeting late again!</p>
